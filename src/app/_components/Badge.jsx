@@ -4,7 +4,7 @@ import { useState } from "react";
 import { IoIosNotifications } from "react-icons/io";
 
 export default function Badges() {
-    const [invisible, setInvisible] = useState(false)
+    const [invisible, setInvisible] = useState(false);
 
     return (
         <>
@@ -26,31 +26,31 @@ export default function Badges() {
                         <Badge content="5" size="sm" color="secondary">
                             <Avatar src="https://i.pravatar.cc/150?u=a04258a2462d826712d" />
                         </Badge>
-                        <p>color "secondary"</p>
+                        <p>color &quot;secondary&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" size="md" color="success">
                             <Avatar radius="md" src="https://i.pravatar.cc/300?u=a042581f4e29026709d" />
                         </Badge>
-                        <p>color "success"</p>
+                        <p>color &quot;success&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" size="lg" color="warning">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>color "warning"</p>
+                        <p>color &quot;warning&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" size="lg" color="danger">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>color "danger"</p>
+                        <p>color &quot;danger&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" size="lg" color="default">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>color "default"</p>
+                        <p>color &quot;default&quot;</p>
                     </div>
                 </div>
                 <div className="flex gap-3 items-center mt-4">
@@ -58,25 +58,25 @@ export default function Badges() {
                         <Badge content="5" size="sm" variant="faded" color="secondary">
                             <Avatar src="https://i.pravatar.cc/150?u=a04258a2462d826712d" />
                         </Badge>
-                        <p>varient "faded"</p>
+                        <p>variant &quot;faded&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" variant="flat" size="md" color="success">
                             <Avatar radius="md" src="https://i.pravatar.cc/300?u=a042581f4e29026709d" />
                         </Badge>
-                        <p>varient "flat"</p>
+                        <p>variant &quot;flat&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" variant="shadow" size="lg" color="warning">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>varient "shadow"</p>
+                        <p>variant &quot;shadow&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" variant="solid" size="lg" color="danger">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>varient "solid"</p>
+                        <p>variant &quot;solid&quot;</p>
                     </div>
                 </div>
                 <div className="flex gap-3 items-center mt-4">
@@ -84,46 +84,44 @@ export default function Badges() {
                         <Badge content="5" size="sm" placement="top-right" variant="faded" color="secondary">
                             <Avatar src="https://i.pravatar.cc/150?u=a04258a2462d826712d" />
                         </Badge>
-                        <p>placement "top-right"</p>
+                        <p>placement &quot;top-right&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" placement="top-left" variant="flat" size="md" color="success">
                             <Avatar radius="md" src="https://i.pravatar.cc/300?u=a042581f4e29026709d" />
                         </Badge>
-                        <p>placement "top-left"</p>
+                        <p>placement &quot;top-left&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" placement="bottom-left" variant="shadow" size="lg" color="warning">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>placement "bottom-left"</p>
+                        <p>placement &quot;bottom-left&quot;</p>
                     </div>
                     <div>
                         <Badge content="5" placement="bottom-right" variant="solid" size="lg" color="danger">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>placement "bottom-right"</p>
+                        <p>placement &quot;bottom-right&quot;</p>
                     </div>
                 </div>
 
                 <div className="flex gap-3 items-center mt-4">
-
                     <div>
                         <Badge content="500" shape="rectangle" variant="shadow" size="lg" color="warning">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>shape "rectangle"</p>
+                        <p>shape &quot;rectangle&quot;</p>
                     </div>
                     <div>
                         <Badge content="50" shape="circle" variant="solid" size="lg" color="danger">
                             <Avatar radius="full" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
-                        <p>shape "circle"</p>
+                        <p>shape &quot;circle&quot;</p>
                     </div>
                 </div>
 
                 <div className="flex gap-3 items-center mt-4">
-
                     <div>
                         <Badge content="5" color="warning" isInvisible={invisible}>
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
@@ -135,40 +133,38 @@ export default function Badges() {
                         </Badge>
                     </div>
                     <div>
-                        <Switch isSelected={!invisible} onValueChange={(value) => setInvisible(!value)} >toggle Badges</Switch>
+                        <Switch isSelected={!invisible} onValueChange={(value) => setInvisible(!value)}>toggle Badges</Switch>
                     </div>
                     <p className="border-2 p-3">conditional display Badges</p>
                 </div>
                 <div className="flex gap-3 items-center mt-4">
-
                     <div>
-                        <Badge content="" color="success" >
+                        <Badge content="" color="success">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
                     </div>
                     <div>
-                        <Badge content="new" color="danger" >
+                        <Badge content="new" color="danger">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
                     </div>
                     <div>
-                        <Badge content={<IoIosNotifications />} color="danger" >
+                        <Badge content={<IoIosNotifications />} color="danger">
                             <Avatar radius="md" src="https://i.pravatar.cc/150?u=a04258114e29026302d" />
                         </Badge>
                     </div>
-
                 </div>
 
                 <div className="flex gap-3 items-center mt-4">
-
                     <div>
-                        <Badge content="99+" color="success" >
-                            <Button color="danger" isIconOnly area-label="more than 99 notifications"> <IoIosNotifications /> </Button>
+                        <Badge content="99+" color="success">
+                            <Button color="danger" isIconOnly area-label="more than 99 notifications">
+                                <IoIosNotifications />
+                            </Button>
                         </Badge>
                     </div>
-
                 </div>
             </div>
         </>
-    )
-};
+    );
+}

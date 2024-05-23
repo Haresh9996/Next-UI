@@ -24,15 +24,15 @@ export default function Avatars() {
             <div className="flex items-center gap-6">
                 <div>
                     <Avatar size="sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>size "sm"</p>
+                    <p>size &quot;sm&quot;</p>
                 </div>
                 <div>
                     <Avatar size="md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>size "md"</p>
+                    <p>size &quot;md&quot;</p>
                 </div>
                 <div>
                     <Avatar size="lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>size "lg"</p>
+                    <p>size &quot;lg&quot;</p>
                 </div>
                 <div>
                     <Avatar size="lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" className="w-20 h-20" />
@@ -42,45 +42,45 @@ export default function Avatars() {
             <div className="flex items-center gap-4 my-4">
                 <div>
                     <Avatar isBordered radius="full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>Radius "full"</p>
+                    <p>Radius &quot;full&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered radius="sm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>Radius "sm"</p>
+                    <p>Radius &quot;sm&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered radius="md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>Radius "md"</p>
+                    <p>Radius &quot;md&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered radius="lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>Radius "lg"</p>
+                    <p>Radius &quot;lg&quot;</p>
                 </div>
             </div>
             <div className="flex items-center gap-4 my-4">
                 <div>
                     <Avatar isBordered color="default" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>color "default"</p>
+                    <p>color &quot;default&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered color="primary" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>color "primary"</p>
+                    <p>color &quot;primary&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered color="secondary" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>color "secondary"</p>
+                    <p>color &quot;secondary&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered color="success" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>color "success"</p>
+                    <p>color &quot;success&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered color="warning" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>color "warning"</p>
+                    <p>color &quot;warning&quot;</p>
                 </div>
                 <div>
                     <Avatar isBordered color="danger" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCAIEB6re2lGWr8hM2Su98PiT318ykfkssc2aK4PLrbQ&s" />
-                    <p>color "danger"</p>
+                    <p>color &quot;danger&quot;</p>
                 </div>
             </div>
             <div className="flex items-center gap-4 my-4">
@@ -115,4 +115,4 @@ export default function Avatars() {
 
         </>
     )
-};
+}

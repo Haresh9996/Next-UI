@@ -3,7 +3,7 @@ import { Link, User } from "@nextui-org/react";
 export default function Users() {
     return (
         <>
-            <h2 className="p-4 bg-content2-foreground text-white text-3xl">Images </h2>
+            <h2 className="p-4 bg-content2-foreground text-white text-3xl">User </h2>
             <div className="flex flex-wrap gap-4">
                 <div>
                     <User name="Jane Doe" description="Product Designer"

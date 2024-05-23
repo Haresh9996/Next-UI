@@ -31,6 +31,11 @@ import Snippets from "./_components/Snippets";
 import Spinners from "./_components/Spinners";
 import Switches from "./_components/Switches";
 import Sliders from "./_components/Sliders";
+import Users from "./_components/Users";
+import Tables from "./_components/Tables";
+import Tabss from "./_components/Tabss";
+import TextAreas from "./_components/TextAreas";
+import Tooltips from "./_components/Tooltips";
 
 export default function Home() {
   return (
@@ -132,6 +137,21 @@ export default function Home() {
         </div>
         <div className="space-x-4 my-6">
           <Sliders />
+        </div>
+        <div className="space-x-4 my-6">
+          <Tables />
+        </div>
+        <div className="space-x-4 my-6">
+          <Tabss />
+        </div>
+        <div className="space-x-4 my-6">
+          <TextAreas />
+        </div>
+        <div className="space-x-4 my-6">
+          <Tooltips />
+        </div>
+        <div className="space-x-4 my-6">
+          <Users />
         </div>
       </ScrollShadow>
     </div>
